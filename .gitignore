@@ -1,0 +1,17 @@
+.DS_Store
+.idea/
+
+__pycache__
+*.pyc
+
+virt/
+
+CMakeCache.txt
+CMakeFiles/
+Makefile
+*.cmake
+compile_commands.json
+
+*.dylib
+*.so
+*.dll
