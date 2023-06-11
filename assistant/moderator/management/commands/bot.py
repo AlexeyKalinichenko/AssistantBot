@@ -10,7 +10,7 @@ def runBot():
 		print(message.text)
 		print('=' * 20)
 		myChatId = 0
-		bot.send_message(0, 'Test message!')
+		bot.send_message(myChatId, 'Test message!')
 
 	bot.polling(none_stop = True, interval = 0)
 
